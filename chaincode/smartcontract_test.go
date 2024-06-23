@@ -4,10 +4,12 @@ import (
     "encoding/json"
     "testing"
 
-    "github.com/hyperledger/fabric-contract-api-go/contractapi"
-    "github.com/hyperledger/fabric-contract-api-go/contractapi/mocks"
-    "github.com/stretchr/testify/require"
-    "smartcontract/chaincode"
+    "github.com/hyperledger/fabric-chaincode-go/v2/shim"
+	"github.com/hyperledger/fabric-contract-api-go/v2/contractapi"
+	"github.com/hyperledger/fabric-protos-go-apiv2/ledger/queryresult"
+	"github.com/alsrb9936/chaincode-go/chaincode"
+	"github.com/alsrb9936/chaincode-go/chaincode/mocks"
+	"github.com/stretchr/testify/require"
 )
 
 func configureStub() (*chaincode.SmartContract, *mocks.TransactionContext) {
