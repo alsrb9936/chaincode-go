@@ -6,7 +6,7 @@ package main
 
 import (
 	"log"
-
+        "github.com/alsrb9936/chaincode-go/chaincode"
 	"github.com/hyperledger/fabric-contract-api-go/v2/contractapi"
 )
 
