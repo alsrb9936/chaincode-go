@@ -1,4 +1,4 @@
-module chaincode-go
+module github.com/alsrb9936/chaincode-go
 
 go 1.21
 
